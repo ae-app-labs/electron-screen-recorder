@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>screen-recorder</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <script defer src="render.js"></script>
+  </head>
+  <body class="content">
+
+    <div class="has-text-centered py-2">
+      <h1 class="is-size-3">Electron Screen Recorder</h1>
+
+      <div class="has-background-grey">
+        <video></video>
+      </div>
+
+      <hr/>
+      <button id="start" class="button is-primary">Start</button>
+      <button id="pause" class="button is-link">Pause</button>
+      <button id="stop" class="button is-warning">Stop</button>
+      <hr/>
+
+      <button id="videoSelect" class="button is-text">
+        Select a Video Source
+      </button>
+    </div>
+
+  </body>
+</html>
